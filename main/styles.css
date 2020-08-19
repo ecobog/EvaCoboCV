@@ -1,0 +1,95 @@
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.b-navegation{
+    background: rgba(179,220,237,1);
+    background: -moz-linear-gradient(45deg, rgba(179,220,237,1) 0%, rgba(188,224,238,1) 27%, rgba(41,184,229,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(179,220,237,1)), color-stop(27%, rgba(188,224,238,1)), color-stop(100%, rgba(41,184,229,1)));
+    background: -webkit-linear-gradient(45deg, rgba(179,220,237,1) 0%, rgba(188,224,238,1) 27%, rgba(41,184,229,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(179,220,237,1) 0%, rgba(188,224,238,1) 27%, rgba(41,184,229,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(179,220,237,1) 0%, rgba(188,224,238,1) 27%, rgba(41,184,229,1) 100%);
+    background: linear-gradient(45deg, rgba(179,220,237,1) 0%, rgba(188,224,238,1) 27%, rgba(41,184,229,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#29b8e5', GradientType=1 );
+}
+
+.b-navegation{
+    margin-top: 2%;
+}
+
+.logo {
+    display: block;
+    float: left;
+    height: 60px;
+    margin-top: -9px;
+    margin-right: 5px;
+    animation: latir infinite 7s linear;
+}
+
+@keyframes latir {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.05, 1.05);
+    }
+    55% {
+        transform: scale(0.90, 0.90);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+.miNombre{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: rgb(41, 117, 216);
+}
+
+.b-navegation ul li{
+    display: inline-block;
+    list-style: none;
+    height: 46px;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 11px;
+    text-align: center;
+}
+
+.b-home {
+    background-color: rgb(241, 239, 216);
+}
+
+.b-home ul li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: initial;
+}
+
+.center{
+    text-align: center;
+}
+
+.fotoEva{
+    height: 30%;
+    width: 30%;
+}
+
+/*
+.b-home__general{
+    display: inline-block;
+    list-style: none;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 11px;
+    text-align: center;
+} 
+*/
+
+a{
+    text-decoration: none;
+}
